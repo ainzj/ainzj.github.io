@@ -1,0 +1,23 @@
+body {
+	font-family: roboto;
+	background: rgb(209,209,209);
+	text-align: center;
+}
+h1	{
+	color: #f7a3b8;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+img	{
+	width: 300px;
+}
+a	{
+	text-decoration: none;
+}
+a:hover {
+	background: black;
+	color: white;
+}
+ul	{
+	text-align: left;
+}
