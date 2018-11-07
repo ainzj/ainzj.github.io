@@ -3,10 +3,17 @@ body {
 	background: rgb(209,209,209);
 	text-align: center;
 }
-h1	{
-	color: #f7a3b8;
+.banner-content	{
+	color: white;
 	font-size: 40px;
 	letter-spacing: 2px;
+	background: linear-gradient(20deg,rgba(10,10,10,0.5),
+				rgba(200,200,200,0.5)),
+				url("images/objects.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 200px;
+	font-family: 'Krub', cursive;
 }
 img	{
 	width: 300px;
@@ -20,4 +27,9 @@ a:hover {
 }
 ul	{
 	text-align: left;
+}
+.banner {
+	background: linear-gradient(20deg,rgba(10,10,10,0.5),
+				rgba(200,200,200,0.5)),
+				url("images/objects.jpg")
 }
