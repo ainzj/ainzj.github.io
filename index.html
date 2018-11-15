@@ -2,69 +2,169 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Flash de la semaine</title>
-		<meta name="description" content="Une sélection d'articles pour passer une bonne semaine">
-		<meta property="og:title" content="Flash de la semaine">
-		<meta property="og:image" content="images/objects.jpg">
-		<meta property="og:description" content="Une sélection d'articles pour passer une bonne semaine">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>SHAPO</title>
+		<meta name="description" content="Votre référence en chapeaux">
+		<meta property="og:title" content="SHAPO">
+		<meta property="og:image" content="images/beach.jpg">
+		<meta property="og:description" content="Pour tous ceux qui passent une tête">
 		<link href="https://fonts.googleapis.com/css?family=Krub:300i,400,500" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
+	
 	<body>
 		<div class="banner">
 	  		<div class="banner-content">
-	    		<h1>Flash de la semaine</h1>
-	    		<p>En quantités limitées...</p>
-	    		<a class="btn btn-primary btn-lg">Start now</a>
+	    		<h1>SHAPO</h1>
+	    		<p>Si vous passez une tête, vous porterez le chapeau...</p>
+	    		<a class="btn btn-primary btn-lg">Voir nos articles</a>
 	  		</div>
+	  		
+	  		<img src="images/logo.png" alt="Logo SHAPO" id="logo">
+	  		
+	  		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+			<div class="dropdown">
+				<a class="" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    	<i class="fas fa-bars menu"></i>
+			  	</a>
+			  	<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				    <a class="dropdown-item" href="#premiere-rubrique">Nos articles</a>
+				    <a class="dropdown-item" href="#">Newsletter</a>
+				    <a class="dropdown-item" href="#">Nous contacter</a>
+			  	</div>
+			</div>
 		</div>
-		<p>Bienvenue dans mon univers. Ici tu trouveras un peu tout ce qui me passe par la tête, des <b>réflexions</b> sur la vie, le <i>temps qui passe</i> mais aussi une galerie photos en véritable désordre. Ce site peut être vu comme un cahier de brouillon, où je partagerai petit à petit un peu ce dont j’ai envie, sans réelle organisation. D’où le nom du site « le bazar de Clem ».</p>
-		<iframe width="400" height="250" src="https://www.youtube.com/embed/_QAks0qb8YQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				<!-- Begin Mailchimp Signup Form -->
-		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-		<style type="text/css">
-			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-			/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-			   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-		</style>
-		<div id="mc_embed_signup">
-		<form action="https://github.us19.list-manage.com/subscribe/post?u=5aa0232293cf7d4235d96687a&amp;id=b70586f7c6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-		    <div id="mc_embed_signup_scroll">
-			<h2>Subscribe to our mailing list</h2>
-		<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-		<div class="mc-field-group">
-			<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-		</label>
-			<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-		</div>
-		<div class="mc-field-group">
-			<label for="mce-FNAME">First Name </label>
-			<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-		</div>
-		<div class="mc-field-group">
-			<label for="mce-LNAME">Last Name </label>
-			<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-		</div>
-			<div id="mce-responses" class="clear">
-				<div class="response" id="mce-error-response" style="display:none"></div>
-				<div class="response" id="mce-success-response" style="display:none"></div>
-			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5aa0232293cf7d4235d96687a_b70586f7c6" tabindex="-1" value=""></div>
-		    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+
+			<div class="articles">
+		      <h1 id="rubrique-choix">Choisissez votre chapeau</h1>
+		      <div class="container">
+		      <div class="row">
+		        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+		          <div class="block">
+		            <h2>L'élégant</h2>
+		            <p>Un gros noeud qui sera la pièce maîtresse de vos soirées habillées.</p>
+		            <img class="photos" src="images/white.jpg" alt="Chapeau blanc">
+		              <div class="bouton">
+		                <button type="button" class="btn btn-lg btn-block btn-danger">Voir plus</button>
+		              </div>
+		          </div>
+		        </div>
+
+		        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+		          <div class="block">
+		            <h2>Le classique</h2>
+		            <p>Un joli chapeau de paille agrémenté d'un noeud noir fantaisie.</p>
+		            <img class="photos" src="images/paille.jpg" alt="Chapeau de paille">
+		              <div class="bouton">
+		                <button type="button" class="btn btn-lg btn-block btn-danger">Voir plus</button>
+		              </div>
+		          </div>
+		        </div>
+
+		        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+		          <div class="block">
+		            <h2>L'excentrique</h2>
+		            <p>Un chapeau rouge et soyeux au toucher, qui réhaussera vos tenues d'hiver.</p>
+		            <img class="photos" src="images/red.jpg" alt="Chapeau rouge">
+		              <div class="bouton">
+		                <button type="button" class="btn btn-lg btn-block btn-danger">Voir plus</button>
+		              </div>
+		          </div>
+		        </div>
+
+		        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+		          <div class="block">
+		            <h2>L'océanique</h2>
+		            <p>Un chapeau souple et léger aux rayures bleutées en guise de vagues océaniques...</p>
+		            <img class="photos" src="images/stripes.jpg" alt="Chapeau rouge">
+		              <div class="bouton">
+		                <button type="button" class="btn btn-lg btn-block btn-danger">Voir plus</button>
+		              </div>
+		          </div>
+		        </div>
+		      </div>
 		    </div>
-		</form>
 		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		
+		</div>
+
+				<!-- Begin Mailchimp Signup Form -->
+		<div class="newsletter">
+			<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+			<style type="text/css">
+				#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,'Krub',cursive; }
+			</style>
+			<div id="mc_embed_signup">
+				<form action="https://github.us19.list-manage.com/subscribe/post?u=5aa0232293cf7d4235d96687a&amp;id=b70586f7c6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		    	<div id="mc_embed_signup_scroll">
+					<h2>Rejoignez notre <i>newsletter</i> pour être au courant de nos actualités !</h2>
+					<div class="indicates-required"><span class="asterisk">*</span> champ requis</div>
+					<div class="mc-field-group">
+						<label for="mce-EMAIL">Adresse e-mail <span class="asterisk">*</span>
+						</label>
+						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+					</div>
+					<div class="mc-field-group">
+						<label for="mce-FNAME">Prénom </label>
+						<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+					</div>
+					<div class="mc-field-group">
+						<label for="mce-LNAME">Nom </label>
+						<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+					</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    
+		    		<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5aa0232293cf7d4235d96687a_b70586f7c6" tabindex="-1" value=""></div>
+		    		<div class="clear"><input type="submit" value="Souscrire" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+		    	</div>
+				</form>
+			</div>
 		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+		</div>
 		<!--End mc_embed_signup-->
+
+		<div class="map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90493.78086066555!2d-0.6561809174333583!3d44.86370654556241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527e8f751ca81%3A0x796386037b397a89!2sBordeaux!5e0!3m2!1sfr!2sfr!4v1541602748051" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<p>Nos boutiques :</p>
 		<ul>
-			<li>Textes</li>
-			<li>Poèmes</li>
-			<li>Recommandations</li>
-			<li>Galerie</li>
+			<li>Montpellier</li>
+			<li>Avignon</li>
+			<li>Sète</li>
 		</ul>
+		</div>
+
+		<div id="box-black">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div class="box-pink">
+						Facebook
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="box-pink">
+						Twitter
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="box-pink">
+						Instagram
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
 		<a href="https://lebazardeclem.wordpress.com/" target="_blank">Le Bazar de Clem</a>
 	</body>
 </html>
