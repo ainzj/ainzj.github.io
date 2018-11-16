@@ -1,5 +1,5 @@
 body {
-	font-family: 'Coming Soon',cursive;
+	font-family: 'Krub',cursive;
 	background: rgb(209,209,209);
 	text-align: center;
 }
@@ -9,19 +9,33 @@ body {
 				url("images/objects.jpg");
 	position: relative;
 }
+@media screen and (max-width: 700 px) {
+	.banner-content {
+		padding: 40px 10px;
+	}
+}
 #logo	{
 	width: 150px;
 	position: absolute;
 	left: 50px;
 	top: 50px;
 }
-.menu {
-	font-size: 40px;
-	margin: 20px;
-	color: black;
+div.dropdown {
 	position: absolute;
-	right: 50px;
-	top: 50px;
+	text-align: right;
+	width: 100%;
+}
+.banner .dropdown .dropdown-menu {
+	position: relative!important;
+}
+#dropdownMenuLink:hover {
+	background: transparent;
+}
+.menu {
+	display: inline-block;
+	font-size: 40px;
+	margin: 70px;
+	color: black;
 }
 .banner-content	{
 	color: white;
@@ -34,7 +48,6 @@ body {
 	background-position: center;
 	background-size: cover;
 	padding: 200px;
-	font-family: 'Krub', cursive;
 }
 .articles {
 	background: linear-gradient(20deg,rgba(10,10,10,0.5),
@@ -82,7 +95,6 @@ p 	{
 }
 h3	{
 	font-size:20px;
-	font-family: 'Coming Soon', cursive;
 	text-align: center;
 	padding: 40px 0px 40px 0px;
 }
@@ -127,4 +139,9 @@ h3	{
 	text-decoration: none;
 	font-size: 50px;
 	text-align: center;
+}
+@media screen and (max-width: 900px) {
+	#newsletter {
+		margin:0;
+	}
 }
